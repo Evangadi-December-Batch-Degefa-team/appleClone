@@ -13,8 +13,25 @@ body {
 }
 
 /* Header Style */
-
-
+/* iphone ii pro */
+.first-container{
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.left-fifth{
+  background-image: url(../images/home/apple-tv-background.jpg);
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tv-image{
+  padding: 180px 0;
+}
 /* Footer Styling */
 
 
