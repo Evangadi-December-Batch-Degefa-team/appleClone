@@ -13,6 +13,40 @@ body {
 }
 
 /* Header Style */
+/* Header Style */
+.header-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: 200;
+  font-size: 0.75em;
+}
+.logo-link {
+  width: 18px;
+  display: block;
+}
+.search-link,
+.cart-link {
+  width: 55px;
+  display: block;
+  padding: 0 20px !important;
+}
+.navbar {
+  padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 44px;
+  line-height: 44px;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/icons/humberger.png");
+}
 
 /* Footer Styling */
 
@@ -59,10 +93,35 @@ body {
 /* Second Highlight Section */
 
 /* Third Highlight Section */
+.third-highlight-wrapper {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
 
 /*Fourth Highlight Section */
 
 /*Fivth Highlight Section */
+.fifth-heghlight-wrapper {
+  background: #fff;
+}
+.fifth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
 
 /*Sixth Highlight Section */
 
