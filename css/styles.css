@@ -13,6 +13,39 @@ body {
 }
 
 /* Header Style */
+.header-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: 200;
+  font-size: 0.75em;
+}
+.logo-link {
+  width: 18px;
+  display: block;
+}
+.search-link,
+.cart-link {
+  width: 55px;
+  display: block;
+  padding: 0 20px !important;
+}
+.navbar {
+  padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-brand {
+  padding: 0;
+}
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 44px;
+  line-height: 44px;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/icons/humberger.png");
+}
 
 /* Footer Styling */
 
@@ -66,31 +99,41 @@ body {
   color: #fff;
 }
 /* Third Highlight Section */
+.third-highlight-wrapper {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
 
 /*Fourth Highlight Section */
 .right-side-inner-wrapper {
-	margin: 1% 1% 0% 0.5%; 
+  margin: 1% 1% 0% 0.5%;
 }
 .col-lg-6.right-side-wrapper {
-	padding-left: 0;
-	padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 .fourth-heghlight-wrapper .right-side-inner-wrapper {
-	height: 580px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;	
-	padding-top: 54px;
-	background-image:  url("../images/home/apple-card.jpg"); 
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/apple-card.jpg");
 }
 .description-wraper {
-	max-width: 430px;
-	margin: 0 auto;
-	padding: 10px; 
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 /*Fivth Highlight Section */
+
 .left-fifth{
   background-image: url(../images/home/apple-tv-background.jpg);
   height: 580px;
@@ -100,6 +143,24 @@ body {
 }
 .tv-image{
   padding: 180px 0;
+  
+  
+.fifth-heghlight-wrapper {
+  background: #fff;
+}
+
+.fifth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
 }
 
 .watch-more::after{
@@ -112,17 +173,16 @@ body {
 }
 /*Sixth Highlight Section */
 .sixth-heghlight-wrapper .right-side-inner-wrapper {
-	height: 580px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align: center;	
-	padding-top: 54px;
-	background-image:  url("../images/home/new-ipad.jpg"); 
-	background-size: initial;
-	background-color: #000;
-	background-position: bottom;
-
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/new-ipad.jpg");
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
 }
 
 /* Footer responsive */
