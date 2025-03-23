@@ -86,6 +86,19 @@ body {
 /*Fivth Highlight Section */
 
 /*Sixth Highlight Section */
+.sixth-heghlight-wrapper .right-side-inner-wrapper {
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;	
+	padding-top: 54px;
+	background-image:  url("../images/home/new-ipad.jpg"); 
+	background-size: initial;
+	background-color: #000;
+	background-position: bottom;
+
+}
 
 /* Footer responsive */
 @media (max-width: 768px) {
