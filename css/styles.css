@@ -90,7 +90,14 @@ body {
 }
 
 /* Second Highlight Section */
-
+.first-container{
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
 /* Third Highlight Section */
 .third-highlight-wrapper {
   background-image: url("../images/home/iphone11-bg.jpg");
@@ -126,6 +133,18 @@ body {
 }
 
 /*Fivth Highlight Section */
+
+.left-fifth{
+  background-image: url(../images/home/apple-tv-background.jpg);
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tv-image{
+  padding: 180px 0;
+  
+  
 .fifth-heghlight-wrapper {
   background: #fff;
 }
@@ -144,6 +163,14 @@ body {
   background-position: bottom;
 }
 
+.watch-more::after{
+  content: "\f144";
+    font-family: FontAwesome;
+    font-weight: 900;
+    color: blue;
+    font-size: 16px;
+    padding-left: 5px;
+}
 /*Sixth Highlight Section */
 .sixth-heghlight-wrapper .right-side-inner-wrapper {
   height: 580px;
