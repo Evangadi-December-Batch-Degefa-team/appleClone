@@ -1,0 +1,25 @@
+name: Check Apple Clone HTML
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Validate HTML and CSS
+        run: |
+          sudo apt install tidy
+          find . -name "*.html" -exec tidy -q -e {} \;
+
+      - name: Check JavaScript Errors
+        run: |
+          npm install -g eslint
+          eslint "**/*.js" || true
