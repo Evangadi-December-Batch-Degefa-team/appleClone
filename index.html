@@ -98,28 +98,35 @@
 
     <!-- Main highlight section -->
 
-    <section class="main-highlight-wrapper">
+    <section
+      class="main-highlight-wrapper"
+      role="region"
+      aria-labelledby="main-highlight-title"
+    >
       <div class="container">
         <div
           class="row h-100 align-items-center justify-content-center text-center"
         >
           <div class="col-12">
-            <div class="model">16-inch model</div>
+            <h2 id="main-highlight-title" class="model">16-inch model</h2>
 
-            <div class="product-title">MacBook Pro</div>
+            <h3 class="product-title">MacBook Pro</h3>
 
-            <div class="brief-description">The best for the brightest.</div>
+            <p class="brief-description">The best for the brightest.</p>
 
-            <div class="links-wrapper">
+            <nav class="links-wrapper" aria-label="Product links">
               <ul>
                 <li><a href="">Learn more</a></li>
                 <li><a href="">Buy</a></li>
               </ul>
-            </div>
+            </nav>
 
-            <div class="main-image-wrapper">
-              <img src="images/home/mac-laptop.jpg" />
-            </div>
+            <figure class="main-image-wrapper">
+              <img
+                src="images/home/mac-laptop.jpg"
+                alt="MacBook Pro 16-inch model"
+              />
+            </figure>
           </div>
         </div>
       </div>
